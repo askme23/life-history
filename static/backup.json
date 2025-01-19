@@ -1,0 +1,556 @@
+{
+    "ratings": [],
+    "challenges": [
+        {
+            "year": 2025,
+            "version": 2,
+            "updatedAt": 758521589.646705,
+            "type": "year",
+            "createdAt": 758495353.143961,
+            "id": "C4454F9D-3573-4572-ABD3-00B822C04F73",
+            "internalState": "PUBLISHED",
+            "challenge": 20
+        }
+    ],
+    "books": [
+        {
+            "illustrators": [],
+            "updatedAt": 754579090.702978,
+            "internalState": "PUBLISHED",
+            "languages": [
+                "ru"
+            ],
+            "state": "BOOKSHELF",
+            "averageRating": 0,
+            "isbn10": "5171351287",
+            "originalReleaseYear": 0,
+            "pageCount": 512,
+            "loans": [],
+            "ratings": [],
+            "releaseYear": 0,
+            "remoteImageUrl": "https:\/\/images.isbndb.com\/covers\/12\/81\/9785171351281.jpg",
+            "title": "Silmarillion (s ill. Teda Nesmita)",
+            "quotes": [],
+            "thumbnailRemoteImageUrl": "https:\/\/images.isbndb.com\/covers\/12\/81\/9785171351281.jpg",
+            "publishers": [
+                "C70F7E8A-9A93-45BA-8F66-BA06439964F3"
+            ],
+            "bookDescription": "Russian Book. OOO Izdatel'stvo AST. 512. 2021. Hardcover.",
+            "createdAt": 754579090.68119,
+            "version": 3,
+            "categoryList": [
+                "3243BBCD-34E6-407B-A54F-D2EC38D81E27"
+            ],
+            "externalId": "ABDFC5BE-3C43-479E-B6EA-8E63F29D6900",
+            "narrators": [],
+            "readingStates": [],
+            "id": "7147EEE4-28AF-4A05-BBA7-E37AC364F4F3",
+            "tagList": [],
+            "releaseDate": 631137600,
+            "isbn13": "9785171351281",
+            "translators": [],
+            "authors": [
+                "38B85A2E-943F-429D-848E-A58FCAD7B056"
+            ],
+            "notes": [],
+            "source": "ISBNDB",
+            "types": [
+                "PAPERBACK"
+            ]
+        },
+        {
+            "thumbnailRemoteImageUrl": "https:\/\/images.isbndb.com\/covers\/23080293483982.jpg",
+            "categoryList": [
+                "3243BBCD-34E6-407B-A54F-D2EC38D81E27"
+            ],
+            "translators": [],
+            "loans": [],
+            "createdAt": 757962944.396769,
+            "releaseYear": 0,
+            "externalId": "D7581500-AE34-48AA-AA83-7F2426E6A2E8",
+            "pageCount": 368,
+            "originalReleaseYear": 0,
+            "publishers": [
+                "41FCB98A-A668-4CC3-88D3-03A8124A81F8"
+            ],
+            "narrators": [],
+            "bookDescription": "Luchshaja kniga ob igrovoj industrii ot izvestnogo amerikanskogo zhurnalista Dzhejsona Shrejera. Avtor sobral sotni unikalnykh i zakhvatyvajuschikh istorij sozdanija luchshikh kompjuternykh igr desjatiletija, rasskazannykh emu samimi sozdateljami. Poluchilas zhiznennaja i netrivialnaja kniga o tom, chto stoit za kazhdoj kultovoj igroj sovremennosti i kakoj tsenoj ee razrabotchiki vypuskajut produkty, sobirajuschie milliony fanatov po vsemu miru. V knige vy najdete istorii sozdanija Diablo III i Dragon Age: Inquisition, Uncharted 4, Witcher III i mnogikh drugikh igrovykh bestsellerov.",
+            "internalState": "PUBLISHED",
+            "releaseDate": 536443200,
+            "languages": [
+                "ru"
+            ],
+            "source": "ISBNDB",
+            "id": "6CDD438F-9DC4-4573-84A8-713001D32A98",
+            "illustrators": [],
+            "ratings": [],
+            "averageRating": 0,
+            "isbn13": "9785040989607",
+            "types": [
+                "PAPERBACK"
+            ],
+            "quotes": [],
+            "remoteImageUrl": "https:\/\/images.isbndb.com\/covers\/23080293483982.jpg",
+            "readingStates": [
+                "E796E4D6-606B-4184-9B06-611B12839E03"
+            ],
+            "updatedAt": 757962944.424096,
+            "authors": [
+                "2FE69C2E-64BA-4C7A-8D8D-78273B8C315B"
+            ],
+            "title": "Krov, pot i pikseli. Obratnaia storona industrii videoigr",
+            "tagList": [],
+            "notes": [],
+            "version": 3,
+            "isbn10": "5040989601",
+            "state": "BOOKSHELF"
+        },
+        {
+            "categoryList": [],
+            "originalReleaseYear": 0,
+            "averageRating": 0,
+            "types": [
+                "PAPERBACK"
+            ],
+            "readingStates": [
+                "722D3BEF-5712-45C7-A963-118CCD12465F"
+            ],
+            "languages": [],
+            "releaseYear": 2024,
+            "ratings": [],
+            "state": "BOOKSHELF",
+            "updatedAt": 757972795.786506,
+            "createdAt": 757972795.75873,
+            "translators": [],
+            "notes": [],
+            "illustrators": [],
+            "pageCount": 338,
+            "id": "95A56C09-74A8-453D-80F8-E877C15E5D1E",
+            "internalState": "PUBLISHED",
+            "loans": [],
+            "authors": [
+                "7D31E885-3187-43A5-9802-7A9B7A37F952"
+            ],
+            "publishers": [],
+            "source": "USER",
+            "narrators": [],
+            "quotes": [],
+            "title": "Нежно денежно",
+            "cover": "35AD3E48-E70C-4C65-9DCE-270F38F1C642",
+            "version": 3,
+            "tagList": []
+        },
+        {
+            "internalState": "PUBLISHED",
+            "updatedAt": 758008397.29664,
+            "externalId": "A4F021D7-D2A9-4638-82FF-8ED993EBC61E",
+            "isbn13": "9785906837622",
+            "releaseYear": 0,
+            "translators": [],
+            "pageCount": 512,
+            "illustrators": [],
+            "thumbnailRemoteImageUrl": "https:\/\/images.isbndb.com\/covers\/3051333484291.jpg",
+            "state": "BOOKSHELF",
+            "notes": [],
+            "tagList": [],
+            "bookDescription": "Russian Book. Publisher: Sindbad. Pages: 512. Year: 2017. Cover: Paperback.",
+            "releaseDate": 504907200,
+            "categoryList": [
+                "3243BBCD-34E6-407B-A54F-D2EC38D81E27"
+            ],
+            "title": "Sapiens. Kratkaya istoriya chelovechestva",
+            "version": 3,
+            "narrators": [],
+            "languages": [
+                "ru"
+            ],
+            "isbn10": "5906837620",
+            "readingStates": [
+                "1F5E047E-1669-49FE-9F55-844F5971BEEE"
+            ],
+            "originalReleaseYear": 0,
+            "averageRating": 0,
+            "quotes": [],
+            "createdAt": 758008397.290872,
+            "types": [
+                "PAPERBACK"
+            ],
+            "source": "ISBNDB",
+            "loans": [],
+            "authors": [
+                "C9956491-9D2C-4952-8B0A-DAA1C04ABA77"
+            ],
+            "remoteImageUrl": "https:\/\/images.isbndb.com\/covers\/3051333484291.jpg",
+            "publishers": [
+                "81239BD4-5391-47CE-B6AB-B86CDBDC6CCA"
+            ],
+            "ratings": [],
+            "id": "3996E417-0F22-4EF7-B5A7-3BF95D61E1E5"
+        }
+    ],
+    "version": 1,
+    "categories": [
+        {
+            "bookList": [
+                "6CDD438F-9DC4-4573-84A8-713001D32A98",
+                "3996E417-0F22-4EF7-B5A7-3BF95D61E1E5",
+                "7147EEE4-28AF-4A05-BBA7-E37AC364F4F3"
+            ],
+            "createdAt": 754579090.678543,
+            "name": "Subjects",
+            "isFavorite": false,
+            "version": 2,
+            "internalState": "PUBLISHED",
+            "updatedAt": 754579090.678557,
+            "id": "3243BBCD-34E6-407B-A54F-D2EC38D81E27"
+        }
+    ],
+    "notes": [],
+    "filters": [],
+    "readingStates": [
+        {
+            "updatedAt": 758642126.991475,
+            "id": "E796E4D6-606B-4184-9B06-611B12839E03",
+            "version": 2,
+            "totalLength": 368,
+            "type": "ReadingTypePages",
+            "createdAt": 757962982.497097,
+            "internalState": "PUBLISHED",
+            "book": "6CDD438F-9DC4-4573-84A8-713001D32A98",
+            "progress": [
+                "408D6B7C-6C3D-4455-9D15-2170A2D6C0B4",
+                "6F88AC41-0BC0-4C41-B49D-3B516B58930E",
+                "0588D83A-1F98-461D-90C2-6EDDEB12B37D",
+                "AC9FF73E-21A1-4805-9BB5-DC534663233E",
+                "09D78F5C-574F-4852-9934-63C82DDE9A59",
+                "ED4D599D-2CC0-44CC-B8DA-843C5A3DAB0D",
+                "5506579F-E841-41E0-B4D0-478715794737",
+                "FE7EB4B8-EB98-4FD6-BE49-891439D8B490",
+                "AC4D22E3-6FE3-4EED-94F4-649799959FC9"
+            ],
+            "status": "read"
+        },
+        {
+            "createdAt": 757972804.895608,
+            "version": 2,
+            "type": "ReadingTypePages",
+            "internalState": "PUBLISHED",
+            "totalLength": 338,
+            "progress": [
+                "2D27F1E2-76DA-4303-A27E-8A36A10605E9"
+            ],
+            "book": "95A56C09-74A8-453D-80F8-E877C15E5D1E",
+            "updatedAt": 757972804.908258,
+            "id": "722D3BEF-5712-45C7-A963-118CCD12465F",
+            "status": "reading"
+        },
+        {
+            "id": "1F5E047E-1669-49FE-9F55-844F5971BEEE",
+            "updatedAt": 758008407.742873,
+            "type": "ReadingTypePages",
+            "status": "reading",
+            "totalLength": 512,
+            "version": 2,
+            "createdAt": 758008407.736836,
+            "book": "3996E417-0F22-4EF7-B5A7-3BF95D61E1E5",
+            "internalState": "PUBLISHED",
+            "progress": [
+                "CD01988A-B719-4BA2-8922-AB95AE254923",
+                "8BBDADB8-1E4D-4C96-A698-2A6FCE093548",
+                "2984FDF2-84D7-403A-BA38-6AC95971727C",
+                "5A67E71B-B415-4A99-9EA7-72338F26CB7C",
+                "E574C9C7-DF04-4612-A279-E99D327176C0"
+            ]
+        }
+    ],
+    "device": "iPhone15,2",
+    "writers": [
+        {
+            "name": "Tolkien Dzhon Ronal'd",
+            "isFavorite": false,
+            "surname": "Ruel",
+            "version": 2,
+            "bookList": [
+                "7147EEE4-28AF-4A05-BBA7-E37AC364F4F3"
+            ],
+            "createdAt": 754579090.677561,
+            "updatedAt": 754579090.677579,
+            "id": "38B85A2E-943F-429D-848E-A58FCAD7B056",
+            "internalState": "PUBLISHED"
+        },
+        {
+            "internalState": "PUBLISHED",
+            "name": "Shreyer",
+            "updatedAt": 757962944.391943,
+            "id": "2FE69C2E-64BA-4C7A-8D8D-78273B8C315B",
+            "createdAt": 757962944.391912,
+            "surname": "Dzh.",
+            "bookList": [
+                "6CDD438F-9DC4-4573-84A8-713001D32A98"
+            ],
+            "isFavorite": false,
+            "version": 2
+        },
+        {
+            "version": 2,
+            "createdAt": 757972740.780196,
+            "internalState": "PUBLISHED",
+            "id": "7D31E885-3187-43A5-9802-7A9B7A37F952",
+            "name": "Ольга",
+            "isFavorite": false,
+            "updatedAt": 757972740.780266,
+            "surname": "Примаченко",
+            "bookList": [
+                "95A56C09-74A8-453D-80F8-E877C15E5D1E"
+            ]
+        },
+        {
+            "id": "C9956491-9D2C-4952-8B0A-DAA1C04ABA77",
+            "updatedAt": 758008397.288184,
+            "version": 2,
+            "name": "Yuval Noy",
+            "createdAt": 758008397.288161,
+            "surname": "Harari",
+            "internalState": "PUBLISHED",
+            "isFavorite": false,
+            "bookList": [
+                "3996E417-0F22-4EF7-B5A7-3BF95D61E1E5"
+            ]
+        }
+    ],
+    "seriesList": [],
+    "loans": [],
+    "translators": [],
+    "narrators": [],
+    "publishers": [
+        {
+            "id": "C70F7E8A-9A93-45BA-8F66-BA06439964F3",
+            "createdAt": 754579090.679419,
+            "internalState": "PUBLISHED",
+            "updatedAt": 754579090.679433,
+            "version": 2,
+            "isFavorite": false,
+            "name": "OOO Izdatel'stvo AST",
+            "books": [
+                "7147EEE4-28AF-4A05-BBA7-E37AC364F4F3"
+            ]
+        },
+        {
+            "books": [
+                "6CDD438F-9DC4-4573-84A8-713001D32A98"
+            ],
+            "updatedAt": 757962944.39454,
+            "version": 2,
+            "internalState": "PUBLISHED",
+            "name": "Bombora",
+            "createdAt": 757962944.394527,
+            "id": "41FCB98A-A668-4CC3-88D3-03A8124A81F8",
+            "isFavorite": false
+        },
+        {
+            "name": "Sindbad",
+            "internalState": "PUBLISHED",
+            "id": "81239BD4-5391-47CE-B6AB-B86CDBDC6CCA",
+            "books": [
+                "3996E417-0F22-4EF7-B5A7-3BF95D61E1E5"
+            ],
+            "isFavorite": false,
+            "updatedAt": 758008397.290275,
+            "version": 2,
+            "createdAt": 758008397.290262
+        }
+    ],
+    "files": [
+        {
+            "bookCovers": [
+                "95A56C09-74A8-453D-80F8-E877C15E5D1E"
+            ],
+            "version": 2,
+            "createdAt": 757972795.786718,
+            "id": "35AD3E48-E70C-4C65-9DCE-270F38F1C642",
+            "type": "image",
+            "fileName": "35AD3E48-E70C-4C65-9DCE-270F38F1C642",
+            "internalState": "PUBLISHED",
+            "updatedAt": 757972795.786725
+        }
+    ],
+    "date": 758979897.284194,
+    "shelves": [],
+    "quotes": [],
+    "bookcases": [],
+    "readingProgressList": [
+        {
+            "id": "5506579F-E841-41E0-B4D0-478715794737",
+            "elapsedTime": 0,
+            "date": 757962993.05051,
+            "createdAt": 757962997.926554,
+            "version": 2,
+            "progress": 81,
+            "internalState": "PUBLISHED",
+            "updatedAt": 757962997.933522,
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03"
+        },
+        {
+            "progress": 20,
+            "createdAt": 757964131.672075,
+            "internalState": "PUBLISHED",
+            "date": 757963011.883704,
+            "version": 2,
+            "id": "AC4D22E3-6FE3-4EED-94F4-649799959FC9",
+            "endReadingSession": 757964131.669973,
+            "startReadingSession": 757963011.883704,
+            "elapsedTime": 1111.9900150299072,
+            "updatedAt": 757964131.672478,
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03"
+        },
+        {
+            "version": 2,
+            "id": "2D27F1E2-76DA-4303-A27E-8A36A10605E9",
+            "updatedAt": 757974091.68149,
+            "progress": 39,
+            "elapsedTime": 0,
+            "internalState": "PUBLISHED",
+            "date": 757974084.03139,
+            "createdAt": 757974091.673628,
+            "reading": "722D3BEF-5712-45C7-A963-118CCD12465F"
+        },
+        {
+            "date": 758008420.554836,
+            "id": "5A67E71B-B415-4A99-9EA7-72338F26CB7C",
+            "updatedAt": 758008428.784515,
+            "progress": 31,
+            "version": 2,
+            "createdAt": 758008428.782751,
+            "elapsedTime": 0,
+            "reading": "1F5E047E-1669-49FE-9F55-844F5971BEEE",
+            "internalState": "PUBLISHED"
+        },
+        {
+            "version": 2,
+            "date": 758126100.605788,
+            "updatedAt": 758126109.192741,
+            "internalState": "PUBLISHED",
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03",
+            "id": "408D6B7C-6C3D-4455-9D15-2170A2D6C0B4",
+            "progress": 27,
+            "createdAt": 758126109.175903,
+            "elapsedTime": 0
+        },
+        {
+            "updatedAt": 758219517.707706,
+            "internalState": "PUBLISHED",
+            "version": 2,
+            "id": "E574C9C7-DF04-4612-A279-E99D327176C0",
+            "date": 758219509.825072,
+            "progress": 89,
+            "reading": "1F5E047E-1669-49FE-9F55-844F5971BEEE",
+            "elapsedTime": 0,
+            "createdAt": 758219517.682916
+        },
+        {
+            "date": 758219537.568233,
+            "internalState": "PUBLISHED",
+            "id": "AC9FF73E-21A1-4805-9BB5-DC534663233E",
+            "progress": 33,
+            "elapsedTime": 0,
+            "updatedAt": 758219544.510122,
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03",
+            "createdAt": 758219544.509933,
+            "version": 2
+        },
+        {
+            "updatedAt": 758317987.676162,
+            "progress": 31,
+            "elapsedTime": 0,
+            "version": 2,
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03",
+            "internalState": "PUBLISHED",
+            "createdAt": 758317987.675629,
+            "date": 758317981.723201,
+            "id": "0588D83A-1F98-461D-90C2-6EDDEB12B37D"
+        },
+        {
+            "startReadingSession": 758374019.684984,
+            "elapsedTime": 3616.5634652376175,
+            "endReadingSession": 758378231.08225,
+            "version": 2,
+            "updatedAt": 758378231.09263,
+            "progress": 61,
+            "internalState": "PUBLISHED",
+            "createdAt": 758378231.089661,
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03",
+            "date": 758374019.684984,
+            "id": "ED4D599D-2CC0-44CC-B8DA-843C5A3DAB0D"
+        },
+        {
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03",
+            "internalState": "PUBLISHED",
+            "progress": 35,
+            "id": "FE7EB4B8-EB98-4FD6-BE49-891439D8B490",
+            "version": 2,
+            "date": 758495183.563141,
+            "elapsedTime": 0,
+            "updatedAt": 758495202.266665,
+            "createdAt": 758495202.246759
+        },
+        {
+            "version": 2,
+            "date": 758577536.800389,
+            "internalState": "PUBLISHED",
+            "createdAt": 758577548.360893,
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03",
+            "elapsedTime": 0,
+            "updatedAt": 758577548.380028,
+            "id": "09D78F5C-574F-4852-9934-63C82DDE9A59",
+            "progress": 30
+        },
+        {
+            "updatedAt": 758642126.98068,
+            "reading": "E796E4D6-606B-4184-9B06-611B12839E03",
+            "version": 2,
+            "date": 758642121.232803,
+            "id": "6F88AC41-0BC0-4C41-B49D-3B516B58930E",
+            "internalState": "PUBLISHED",
+            "progress": 50,
+            "elapsedTime": 0,
+            "createdAt": 758642126.969343
+        },
+        {
+            "internalState": "PUBLISHED",
+            "version": 2,
+            "updatedAt": 758663952.178509,
+            "date": 758663947.415361,
+            "createdAt": 758663952.14147,
+            "progress": 11,
+            "reading": "1F5E047E-1669-49FE-9F55-844F5971BEEE",
+            "elapsedTime": 0,
+            "id": "2984FDF2-84D7-403A-BA38-6AC95971727C"
+        },
+        {
+            "date": 758834564.292406,
+            "version": 2,
+            "reading": "1F5E047E-1669-49FE-9F55-844F5971BEEE",
+            "internalState": "PUBLISHED",
+            "progress": 9,
+            "elapsedTime": 0,
+            "createdAt": 758834568.703488,
+            "id": "CD01988A-B719-4BA2-8922-AB95AE254923",
+            "updatedAt": 758834568.722098
+        },
+        {
+            "updatedAt": 758898341.395527,
+            "date": 758898338.770468,
+            "reading": "1F5E047E-1669-49FE-9F55-844F5971BEEE",
+            "elapsedTime": 0,
+            "progress": 6,
+            "createdAt": 758898341.393998,
+            "version": 2,
+            "internalState": "PUBLISHED",
+            "id": "8BBDADB8-1E4D-4C96-A698-2A6FCE093548"
+        }
+    ],
+    "locations": [],
+    "illustrators": [],
+    "contacts": [],
+    "tags": []
+}
