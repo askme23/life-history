@@ -1,6 +1,7 @@
 import json 
 from datetime import datetime
-from fastapi import FastAPI
+from fastapi import FastAPI, Response
+from fastapi.responses import JSONResponse
 
 json_file = 'static/backup.json'
 
@@ -20,11 +21,17 @@ def get_book_reader_data():
     return result
 
 app = FastAPI()
-@app.get("/reading-data")
+@app.post("/reading-data")
 def read_reading_data(): 
     result = get_book_reader_data()
     #TODO handle an error during encoding
-    return json.dumps(result)
+    headers = {
+        "Access-Control-Allow-Origin": "*" #TODO remove in production
+    }
+    return JSONResponse(
+        content=result,
+        headers=headers
+    ) 
 
 def main():
     import uvicorn

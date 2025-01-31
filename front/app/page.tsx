@@ -1,8 +1,73 @@
+"use client"
+
 import Image from "next/image";
+
+import CalHeatmap from 'cal-heatmap'
+import "cal-heatmap/cal-heatmap.css";
+import CalendarLabel from 'cal-heatmap/plugins/CalendarLabel';
+import { useEffect } from "react";
+import axios from "axios";
+
+interface ReadinData {
+  human_date: string;
+  progress: number;
+}
+
+function paint(data: [ReadinData]) {
+  const d = new CalHeatmap();
+  const source = data.map((v, i) => {
+    return {
+      date: `2025-01-01`,
+      value: v.progress, 
+    }
+  })
+
+  console.log(source)
+  d.paint({
+      date: { start: new Date('2025-01-01') },
+      data: {
+        source: [{date: '2025-01-01', value: 25}],
+        x: 'date',
+        y: 'value',
+        groupY: 'sum'
+      },
+      scale: { color: { type: 'linear', scheme: 'PRGn', domain: [-10, 50] } },
+      domain: { type: 'month', gutter: 7 },
+      subDomain: { type: 'day'}
+    },
+    [
+      [
+        CalendarLabel,
+        {
+          width: 30,
+          textAlign: 'start',
+          text: () => dayjs.weekdaysShort().map((d, i) => (i % 2 == 0 ? '' : d)),
+          padding: [-11, 0, 0, 0],
+        },
+      ]
+    ]
+  );
+  
+}
+function CalendarHeatMap() {
+  useEffect(() => {
+    axios({
+      url: 'http://127.0.0.1:8000/reading-data',
+      method: "post",
+      withCredentials: false,
+    }).then((resp) => paint(resp.data))
+    .catch((err) => console.log(err))
+  });
+
+  return (
+    <div id="cal-heatmap"></div>
+  )
+}
 
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <CalendarHeatMap />
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <Image
           className="dark:invert"
