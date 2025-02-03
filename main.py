@@ -13,11 +13,20 @@ def get_book_reader_data():
     unix_epoch = datetime(1970, 1, 1)
     offset = (custom_epoch - unix_epoch).total_seconds()
     
-    result = []
+    
+    dateMap = {}
     for v in data["readingProgressList"]:
-        # print(v)
-        result.append({"progress": v["progress"], "date": str(v["date"]), "human_date": str(datetime.fromtimestamp(v["date"] + offset))})
-        
+        date = datetime.fromtimestamp(v["date"] + offset).strftime("%Y-%m-%d")
+        if date not in dateMap:
+            dateMap[date] = 0            
+        dateMap[date] += int(v["progress"])
+
+    result = []
+    for k, v in dateMap.items():
+        result.append({"date": k, "value": v})
+    
+    # print(dateMap, result)
+
     return result
 
 app = FastAPI()

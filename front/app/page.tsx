@@ -8,32 +8,24 @@ import CalendarLabel from 'cal-heatmap/plugins/CalendarLabel';
 import { useEffect } from "react";
 import axios from "axios";
 
-interface ReadinData {
-  human_date: string;
-  progress: number;
+interface ReadingData {
+  date: string;
+  value: number;
 }
 
-function paint(data: [ReadinData]) {
+function paint(data: [ReadingData]) {
   const d = new CalHeatmap();
-  const source = data.map((v, i) => {
-    return {
-      date: `2025-01-01`,
-      value: v.progress, 
-    }
-  })
-
-  console.log(source)
   d.paint({
       date: { start: new Date('2025-01-01') },
       data: {
-        source: [{date: '2025-01-01', value: 25}],
+        source: data,
         x: 'date',
         y: 'value',
         groupY: 'sum'
       },
-      scale: { color: { type: 'linear', scheme: 'PRGn', domain: [-10, 50] } },
+      scale: { color: { type: 'linear', scheme: 'PRGn', domain: [0, 60] } },
       domain: { type: 'month', gutter: 7 },
-      subDomain: { type: 'day'}
+      subDomain: { type: 'day', radius: 1, width: 20, height: 20}
     },
     [
       [
@@ -52,7 +44,7 @@ function paint(data: [ReadinData]) {
 function CalendarHeatMap() {
   useEffect(() => {
     axios({
-      url: 'http://127.0.0.1:8000/reading-data',
+      url: 'http://127.0.0.1:8000/reading-data', // FIXME: move to env
       method: "post",
       withCredentials: false,
     }).then((resp) => paint(resp.data))
@@ -67,8 +59,10 @@ function CalendarHeatMap() {
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <CalendarHeatMap />
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+      <CalendarHeatMap />
+      <CalendarHeatMap />
+
         <Image
           className="dark:invert"
           src="/next.svg"
